@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Letícia Nails | Nail Dedddsigner em Cacoal</title>
+    <meta
+      name="description"
+      content="Nail Designer em Cacoal. Confira meus trabalhos, serviços e agende seu horário pelo WhatsApp."
+    />
+    <link rel="canonical" href="./index.html" />
+    <meta property="og:title" content="Letícia Nails | Nail Designer em Cacoal" />
+    <meta
+      property="og:description"
+      content="Nail Designer em Cacoal. Confira meus trabalhos, serviços e agende seu horário pelo WhatsApp."
+    />
+    <meta property="og:type" content="profile" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "Letícia Nails",
+        "description": "Nail Designer em Cacoal. Confira meus trabalhos, serviços e agende seu horário pelo WhatsApp.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Cacoal",
+          "addressRegion": "RO",
+          "addressCountry": "BR"
+        },
+        "sameAs": ["https://instagram.com/leticianails"]
+      }
+    </script>
+  </head>
+  <body>
+    <main class="page">
+      <!-- HERO -->
+      <header class="container hero">
+        <div class="animate-enter">
+          <div class="hero-photo">
+            <img
+              src="images/hero.jpg"
+              alt="Letícia, nail designer em Cacoal/RO, em seu estúdio"
+              width="912"
+              height="1200"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </div>
+        </div>
+
+        <div class="animate-enter hero-text" style="animation-delay: 120ms">
+          <h1 class="hero-name">Letícia Nails</h1>
+          <p class="eyebrow hero-role">Nail Designer <span class="dot">•</span> Cacoal/RO</p>
+          <p class="hero-tagline">Unhas que combinam com você ✨</p>
+        </div>
+
+        <div class="animate-enter hero-cta" style="animation-delay: 220ms">
+          <a class="btn-whatsapp" data-wa href="#" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg>
+            <span class="upper">Agendar pelo WhatsApp</span>
+          </a>
+          <p class="availability">
+            <span class="dot-live animate-pulse-dot" aria-hidden="true"></span>
+            Agendamentos abertos
+          </p>
+        </div>
+      </header>
+
+      <!-- QUICK LINKS -->
+      <section class="container quicklinks reveal" aria-label="Links rápidos">
+        <ul>
+          <li>
+            <a href="https://instagram.com/leticianails" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://maps.google.com/?q=Cacoal+RO" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Como chegar</span>
+            </a>
+          </li>
+          <li>
+            <a href="#servicos">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.9 2.6 12 8l5.4 2.1-5.4 2.1L9.9 17.6 7.8 12.2 2.4 10.1 7.8 8z"/><path d="M18 3v4"/><path d="M20 5h-4"/><path d="M18 17v4"/><path d="M20 19h-4"/></svg>
+              <span>Serviços</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- SERVIÇOS -->
+      <section id="servicos" class="container section">
+        <div class="reveal">
+          <div class="section-title">
+            <span class="rule" aria-hidden="true"></span>
+            <h2>Meus serviços</h2>
+            <p class="section-sub">Escolha o serviço ideal para você.</p>
+          </div>
+        </div>
+
+        <ul class="cards" id="services-list"></ul>
+
+        <div class="reveal mt-6">
+          <button type="button" class="btn-outline" id="open-services">Ver todos os serviços</button>
+        </div>
+      </section>
+
+      <!-- GALERIA -->
+      <section id="trabalhos" class="container section">
+        <div class="reveal">
+          <div class="section-title">
+            <span class="rule" aria-hidden="true"></span>
+            <h2>Meus trabalhos</h2>
+            <p class="section-sub">Alguns dos meus trabalhos favoritos.</p>
+          </div>
+        </div>
+        <ul class="gallery" id="gallery"></ul>
+      </section>
+
+      <!-- DEPOIMENTOS -->
+      <section class="container section">
+        <div class="reveal">
+          <div class="section-title">
+            <span class="rule" aria-hidden="true"></span>
+            <h2>O que minhas clientes dizem ❤️</h2>
+          </div>
+        </div>
+        <ul class="cards" id="testimonials"></ul>
+      </section>
+
+      <!-- CTA FINAL -->
+      <section class="container section reveal">
+        <div class="final-cta">
+          <h2>Pronta para transformar suas unhas?</h2>
+          <p>Agende seu horário e venha viver uma experiência especial.</p>
+          <div class="final-cta-btn">
+            <a class="btn-whatsapp" data-wa href="#" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg>
+              <span class="upper">Agendar agora</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- RODAPÉ -->
+      <footer class="container footer">
+        <p class="footer-name">Letícia Nails</p>
+        <p class="footer-role">Nail Designer • Cacoal/RO</p>
+        <nav aria-label="Redes" class="footer-nav">
+          <a href="https://instagram.com/leticianails" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <span aria-hidden="true" class="sep">|</span>
+          <a data-wa href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </nav>
+        <p class="footer-copy">© <span id="year"></span> Letícia Nails</p>
+      </footer>
+
+      <!-- CTA FIXO MOBILE -->
+      <a class="sticky-cta" data-wa href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar pelo WhatsApp — abre o WhatsApp em uma nova aba">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.13 1.585 5.931L0 24l6.633-1.736c1.736.948 3.69 1.445 5.683 1.448h.006c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      </a>
+    </main>
+
+    <!-- MODAL TODOS OS SERVIÇOS -->
+    <div class="modal" id="services-modal" role="dialog" aria-modal="true" aria-label="Todos os serviços" hidden>
+      <button type="button" class="modal-backdrop" aria-label="Fechar" data-close-modal></button>
+      <div class="modal-panel animate-enter">
+        <div class="modal-head">
+          <h3>Todos os serviços</h3>
+          <button type="button" class="modal-close" aria-label="Fechar" data-close-modal>
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+        <div id="all-services"></div>
+      </div>
+    </div>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" hidden>
+      <button type="button" class="lightbox-backdrop" aria-label="Fechar visualização" data-close-lightbox></button>
+      <figure class="lightbox-figure animate-enter">
+        <img id="lightbox-img" src="" alt="" width="800" height="800" />
+        <figcaption id="lightbox-caption"></figcaption>
+        <button type="button" class="lightbox-close" aria-label="Fechar visualização" data-close-lightbox>
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </figure>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
