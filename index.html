@@ -125,7 +125,7 @@
             <p class="section-sub">Alguns dos meus trabalhos favoritos.</p>
           </div>
         </div>
-        <ul class="gallery" id="gallery"></ul>
+        <div class="reveal" id="gallery-carousel"></div>
       </section>
 
       <!-- DEPOIMENTOS -->
@@ -136,7 +136,11 @@
             <h2>O que minhas clientes dizem ❤️</h2>
           </div>
         </div>
-        <ul class="cards" id="testimonials"></ul>
+        <div class="reveal">
+          <ul class="testimonials-track" id="testimonials" role="group" aria-roledescription="carousel" aria-label="Depoimentos de clientes"></ul>
+          <div class="testimonials-dots" id="testimonials-dots" role="tablist" aria-label="Depoimentos"></div>
+        </div>
+
       </section>
 
       <!-- CTA FINAL -->
@@ -185,18 +189,7 @@
       </div>
     </div>
 
-    <!-- LIGHTBOX -->
-    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" hidden>
-      <button type="button" class="lightbox-backdrop" aria-label="Fechar visualização" data-close-lightbox></button>
-      <figure class="lightbox-figure animate-enter">
-        <img id="lightbox-img" src="" alt="" width="800" height="800" />
-        <figcaption id="lightbox-caption"></figcaption>
-        <button type="button" class="lightbox-close" aria-label="Fechar visualização" data-close-lightbox>
-          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-        </button>
-      </figure>
-    </div>
-
     <script src="script.js"></script>
   </body>
 </html>
+
